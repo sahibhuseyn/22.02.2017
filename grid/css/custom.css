@@ -1,0 +1,249 @@
+body{
+	background: #fff;
+}
+.verticaLine{
+	border: 1 solid lightgrey;
+}
+/*header*/
+#header .nav .col12 ul>li, #footer .col8 ul>li{
+	list-style: none;
+	color: lightgrey;
+	display: inline;
+	margin: 0 7px;
+	font-size: 15px;
+}
+#header .nav .col12 ul>li a, #footer .col8 ul>li a{
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#header .nav .col12 ul>li a:link, #footer .col8 ul>li a:link{
+	color: #393939;
+}
+#header .nav .col12 ul>li:first-child a:link{
+	color: darkgrey;
+}
+#header .nav .social i{
+	width: 25px;
+	height: 25px;
+	background: grey;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+/*slider*/
+#slider .col12{
+	margin-top: 15px;
+}
+
+/*icons*/
+#icons div{
+	text-align: center;
+}
+#icons .col3{
+	margin: 25px 0 30px 0;
+}
+#icons .col3 i{
+	width: 40px;
+	height: 40px;
+	background: lightgrey;
+	font-size: 40px;
+	border-radius: 90%;
+	text-align: center;
+	padding: 5px;
+}
+#icons .col3 h1{
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+/*thoughts*/
+
+#thoughts .col12{
+	margin-top: 30px;
+	text-align: center;
+}
+#thoughts .col12 p{
+	text-transform: uppercase;
+	margin: 5px 0;
+}
+#thoughts .col12 p:last-child{
+	font-size: 1.5em;
+}
+
+/*features*/
+#features {
+	padding-top: 20px;
+}
+#features div:first-child>.col2 h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#features .col12{
+	padding-top: 10px;
+}
+#features .col12 .col3{
+	padding: 5px;
+}
+
+
+/*news section*/
+#news .col6, #news .col3{
+	margin-top: 25px;
+}
+#news .col6 h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+#news .col6 p{
+	font-size: 0.8em;
+}
+#news .col6 span{
+	font-size: 12px;
+	color: lightgrey;
+}
+#news .col3 h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#news .col3 .time{
+	position: relative;
+	width: 75px;
+	height: 75px;
+	background: lightgrey;
+	border-radius: 100%;
+}
+#news .col3 .time span{
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	z-index: 1;
+	color: black;
+	font-size: 14px;
+}
+
+#news .col3 .author, #posts .col3 .author {
+	font-style: italic;
+	color: lightgrey;
+}
+#news .col3 .col7 p, #posts .col3 h1{
+	padding: 5px;
+	color: rgb(209, 11, 1);
+}
+#news .col3>p{
+	padding-top: 15px;
+	font-size: 14px;
+}
+#news .col3>p>a, #posts .col3>p>a, #contact .col3 p a{
+	text-decoration: none;
+}
+#news .col3>p>a:link, #posts .col3>p>a:link, #contact .col3 p a{
+	color: rgb(209, 11, 1);
+}
+
+/*posts section*/
+
+#posts .col12{
+	margin-top: 20px;
+}
+#posts .col12 h1, #contact .col3 h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 5px;
+}
+#posts .col3{
+	padding: 8px;
+}
+#posts .col12 h1{
+	padding-top:5px;
+}
+
+
+/*contact section*/
+
+#contact>div>img{
+	height: 5px;
+}
+#contact .col12{
+	margin-top: 15px;
+}
+#contact .col3 .load{
+	font-size: 12px;
+	padding:  10px;
+}
+
+#contact .col3 form input{
+	width: 90%;
+	background: #d1d1d1;
+	border-radius: 3px;
+	padding: 5px;
+	margin-bottom: 10px;
+	color: black;
+}
+#contact .col3 form input[type=text]:last-child{
+	height: 105px;
+}
+#contact .col3 .btns a{
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #313131;
+	padding: 5px;
+	border-radius: 5px;
+}
+#contact .col3 .btns a:last-child{
+	background: #d00b01;
+}
+#contact .col3 .btns a:link{
+	color: white;
+}
+#contact .col3 i{
+	color: #d00b01;
+	font-size: 1.3em;
+}
+#contact .col3 p{
+	font-size: 13px;
+}
+#contact .col3 p a{
+	font-style: italic;
+}
+#contact .col3{
+	height: 64px;
+	padding: 2px;
+}
+#contact .col3 img{
+	height: 100%;
+}
+
+/* footer section*/
+#footer{
+	margin-top: 100px;
+	height: 140px;
+	background: #1e1e1e;
+}
+#footer .col12{
+	margin-top: 20px;
+}
+#footer .col8 ul>li{
+	padding: 0;
+	margin: 0;
+	margin-right: 6px;
+}
+#footer .col5{
+	color: #393939;
+	padding-left: 25px;
+}
+#footer .col5 .col12{
+	font-size: 14px;
+}
+ #footer .col5 input[type=text]{
+ 	background: #393939;
+ 	color: #393939;
+ }
+ #footer .col8 ul>li{
+ 	margin: 0;
+ 	padding: 5px;
+ }
